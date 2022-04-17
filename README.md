@@ -9,5 +9,5 @@ $ npm install -g @guyon/cli
 
 ### yarn
 ```
-$ yarn add global @guyon/cli
+$ yarn global add @guyon/cli
 ```
