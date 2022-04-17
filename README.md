@@ -1,2 +1,2 @@
-# guyon-cli
-guyon-cli
+# cli
+cli
