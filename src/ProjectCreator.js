@@ -141,7 +141,7 @@ class ProjectCreator {
     const process = ora(`安装依赖中..., 请耐心等待一会`)
     process.start()
     try {
-      await processSpawn("yarn", ['install'], { cwd: `${projectName}/`})
+      await processSpawn("npm", ['install'], { cwd: `${projectName}/`})
       process.succeed(chalk.green('依赖安装完成\n'))
     } catch (error) {
       process.fail(chalk.red(error))
